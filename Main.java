@@ -17,11 +17,18 @@ public class Main {
 
 			System.out.print(s);
 		}
+		//进行特殊添加
 		System.out.println();
 		list.add(1, "光大");
+		//删除
 		list.remove(0);
 		for (String s : list) {
 			System.out.println(s);
+		}
+		if(list.contains("张三"){
+		Syatem.out.println("张三已经找到");
+		}else {
+			System.out.println("张三未找到");
 		}
 
 	}
