@@ -25,8 +25,8 @@ public class Main {
 		for (String s : list) {
 			System.out.println(s);
 		}
-		if(list.contains("张三"){
-		Syatem.out.println("张三已经找到");
+		if(list.contains("张三")){
+		System.out.println("张三已经找到");
 		}else {
 			System.out.println("张三未找到");
 		}
